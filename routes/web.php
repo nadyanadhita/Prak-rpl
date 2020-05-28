@@ -30,3 +30,6 @@ Route::post('/stokkeluar/tambahStokKeluar','WallnoteController@tambahSK');
 Route::get('/stokkeluar/updateSK/{KodeTransaksi}','WallnoteController@updateStokKeluar');
 route::post('/stokkeluar/updateStokKeluar/{KodeTransaksi}', 'WallnoteController@updateSK');
 Route::get('/stokkeluar/delete/{KodeTransaksi}','WallnoteController@deleteSK');
+
+Route::get('/contact', 'Contactcontroller@showContactForm');
+Route::post('/contact', 'Contactcontroller@sendMail');
