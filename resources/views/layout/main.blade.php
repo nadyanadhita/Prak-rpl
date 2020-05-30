@@ -38,13 +38,19 @@
             <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="#" class="nav-link">Home</a>
+            <a href="/stokmasuk" class="nav-link">Home</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="#" class="nav-link">Contact</a>
+            <a href="/contact" class="nav-link">Contact Us</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
             <a href="#" class="nav-link">About</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="#" class="nav-link">Pricing</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="#" class="nav-link">Features</a>
         </li>
         </ul>
 
@@ -157,12 +163,14 @@
     <!-- /.navbar -->
 
     <!-- Main Sidebar Container -->
-    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: pink;">
         <!-- Brand Logo -->
-        <a href="index3.html" class="brand-link">
+        <div class="row justify-content-center"> 
         <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
             style="opacity: .8">
-        <span class="brand-text font-weight-light">Wallnote</span>
+        </div>
+        <a href="index3.html" class="brand-link text-center">
+        <span class="brand-text font-weight-light" style="color: black;">Wallnote</span>
         </a>
 
         <!-- Sidebar -->
