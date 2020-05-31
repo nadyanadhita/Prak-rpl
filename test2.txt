@@ -1,7 +1,0 @@
-<!DOCTYPE html>
- <html>  
- <head>    
- <title>Utama – Admin</title>  
-</head> 
- <body>    kelompok f  </body> 
- </html>
